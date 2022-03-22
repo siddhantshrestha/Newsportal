@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Spectral SC', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fbfbfb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h3{
+  font-family: 'Spectral SC', serif !important;
+
+}
+.navbar{
+  background-color: #ebb758 !important;
+}
+.navbar-nav{
+  width: 100%;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-size:18px;
+}
+.newsCard{
+  width: 350px !important;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row ;
+  margin-bottom:  25px ;
+
+}
+a{
+  width: fit-content;
+  text-decoration: none !important;
+}
+.top-header a {
+  padding: 1.1rem 0;
+}
+.top-header .button{
+  padding:.5rem .9rem;
+  background-color: red;
+  border:none;
+}
+.crd{
+  height:200px;
+}
+.crd p{
+  margin-top: 20px;
+
+}
